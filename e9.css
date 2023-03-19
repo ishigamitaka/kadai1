@@ -22,6 +22,7 @@ main {
   background-color: #eee;
   padding: 10px;
   margin: 0px 15px;
+  background-size: auto;
 }
 .step-img1 {
   height: 150px;
@@ -58,16 +59,21 @@ main {
 @media screen and (max-width: 768px) {
   .step-box {
     width: 90%;
-    margin : 50px auto;
+    margin:20px auto;
     position: relative;
-    display: flex;
-    flex-direction: column;
+    /*display: flex;*/
+    /*flex-direction: column;*/
     align-items: center;
+     /*height:150px;*/
+    background-size:auto;
   }
   main {
-    display: flex;
-    flex-direction: column;
+    display: block;
+    /*flex-direction: column;*/
     align-items: center;
+    width:100%;
+    /*height:auto;*/
+    margin: 40px auto;
   }
 }
 footer {
